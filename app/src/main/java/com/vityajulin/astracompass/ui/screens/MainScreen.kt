@@ -24,8 +24,7 @@ import com.vityajulin.astracompass.ui.theme.AstracompassTheme
 
 @Composable
 fun MainScreen(viewModel: CompassViewModel) {
-    // Пока закладываем 2 таба: Компас и Настройки (на будущее)
-    val pagerState = rememberPagerState(pageCount = { 2 })
+    val pagerState = rememberPagerState(pageCount = { 3 })
     val state by viewModel.uiState.collectAsState()
 
     // Оборачиваем всё в нашу тему, прокидывая флаг AstroMode
@@ -55,6 +54,12 @@ fun MainScreen(viewModel: CompassViewModel) {
                     NavigationBarItem(
                         selected = pagerState.currentPage == 1,
                         onClick = { /* скролл к 1 */ },
+                        label = { Text(stringResource(R.string.tab_level)) },
+                        icon = { /* иконка */ }
+                    )
+                    NavigationBarItem(
+                        selected = pagerState.currentPage == 2,
+                        onClick = { /* скролл к 2 */ },
                         label = { Text(stringResource(R.string.tab_settings)) },
                         icon = { /* иконка */ }
                     )
@@ -69,7 +74,8 @@ fun MainScreen(viewModel: CompassViewModel) {
             ) { page ->
                 when (page) {
                     0 -> CompassTab(viewModel)
-                    1 -> Text("Settings coming soon...")
+                    1 -> LevelTab(viewModel)
+                    2 -> Text("Settings coming soon...")
                 }
             }
         }

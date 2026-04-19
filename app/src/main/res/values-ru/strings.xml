@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">Астрономический компас</string>
     <string name="tab_compass">Компас</string>
+    <string name="tab_level">Уровень</string>
     <string name="tab_settings">Настройки</string>
     <string name="permission_request">Для выравнивания монтировки нам необходим доступ к GPS для расчета истинного севера.</string>
 </resources>
