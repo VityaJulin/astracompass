@@ -36,16 +36,18 @@ private val LightColorScheme = lightColorScheme(
 @Composable
 fun AstracompassTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
-    // Dynamic color is available on Android 12+
-    dynamicColor: Boolean = true,
+    isAstroMode: Boolean = false, // Новый параметр
     content: @Composable () -> Unit
 ) {
     val colorScheme = when {
-        dynamicColor && Build.VERSION.SDK_INT >= Build.VERSION_CODES.S -> {
-            val context = LocalContext.current
-            if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
-        }
-
+        isAstroMode -> darkColorScheme(
+            primary = AstroRed,
+            onPrimary = AstroBlack,
+            surface = AstroBlack,
+            onSurface = AstroRed,
+            background = AstroBlack,
+            onBackground = AstroRed
+        )
         darkTheme -> DarkColorScheme
         else -> LightColorScheme
     }
