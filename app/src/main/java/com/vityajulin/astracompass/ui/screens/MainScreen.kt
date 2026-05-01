@@ -62,7 +62,7 @@ fun MainScreen(viewModel: CompassViewModel) {
                             selectedTab = 0
                             scope.launch { pagerState.animateScrollToPage(0) }
                         },
-                        label = { Text(stringResource(R.string.tab_compass)) },
+                        label = { Text(stringResource(R.string.tab_compass), style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.onSurface) },
                         icon = { /* иконка */ }
                     )
                     NavigationBarItem(
@@ -71,7 +71,7 @@ fun MainScreen(viewModel: CompassViewModel) {
                             selectedTab = 1
                             scope.launch { pagerState.animateScrollToPage(1) }
                         },
-                        label = { Text(stringResource(R.string.tab_level)) },
+                        label = { Text(stringResource(R.string.tab_level), style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.onSurface) },
                         icon = { /* иконка */ }
                     )
                     NavigationBarItem(
@@ -80,7 +80,7 @@ fun MainScreen(viewModel: CompassViewModel) {
                             selectedTab = 2
                             scope.launch { pagerState.animateScrollToPage(2) }
                         },
-                        label = { Text(stringResource(R.string.tab_pitch)) },
+                        label = { Text(stringResource(R.string.tab_pitch), style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.onSurface) },
                         icon = { /* иконка */ }
                     )
                 }
