@@ -60,7 +60,7 @@ fun MainScreen(viewModel: CompassViewModel) {
                     NavigationBarItem(
                         selected = pagerState.currentPage == 2,
                         onClick = { /* скролл к 2 */ },
-                        label = { Text(stringResource(R.string.tab_settings)) },
+                        label = { Text(stringResource(R.string.tab_pitch)) },
                         icon = { /* иконка */ }
                     )
                 }
@@ -75,7 +75,7 @@ fun MainScreen(viewModel: CompassViewModel) {
                 when (page) {
                     0 -> CompassTab(viewModel)
                     1 -> LevelTab(viewModel)
-                    2 -> Text("Settings coming soon...")
+                    2 -> PitchTab(viewModel)
                 }
             }
         }
