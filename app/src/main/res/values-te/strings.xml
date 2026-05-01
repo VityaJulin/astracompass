@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Astra కమ్పాస్</string>
+    <string name="tab_compass">కమ్పాస్</string>
+    <string name="tab_level">స్థాయి</string>
+    <string name="tab_pitch">వాలు</string>
+    <string name="tab_settings">సెటింగ్లు</string>
+    <string name="permission_request">మౌంట్‌ని సరిచేయ్ చేయడానికి, నిజమ ఉత్తరం కోసం GPS యాక్సెస్ అవసరం.</string>
+</resources>

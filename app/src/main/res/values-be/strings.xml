@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Astra Кампас</string>
+    <string name="tab_compass">Кампас</string>
+    <string name="tab_level">Узровень</string>
+    <string name="tab_pitch">Вугал нахілу</string>
+    <string name="tab_settings">Налады</string>
+    <string name="permission_request">Каб наладзіць мацаванне, нам патрэбны доступ да GPS для разліку сапраўднай поўначы.</string>
+</resources>

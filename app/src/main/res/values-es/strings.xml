@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Astra Brújula</string>
+    <string name="tab_compass">Brújula</string>
+    <string name="tab_level">Nivel</string>
+    <string name="tab_pitch">Inclinación</string>
+    <string name="tab_settings">Ajustes</string>
+    <string name="permission_request">Para alinear la montura, necesitamos acceso al GPS para el cálculo del norte verdadero.</string>
+</resources>

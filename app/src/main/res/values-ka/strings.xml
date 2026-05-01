@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Astra კომპასი</string>
+    <string name="tab_compass">კომპასი</string>
+    <string name="tab_level">დონე</string>
+    <string name="tab_pitch">დახრის კუთხი</string>
+    <string name="tab_settings">პარამეტრები</string>
+    <string name="permission_request">მონტაჟის გასწორად საჭირო ჩრდილის გამოსახირკისთვის GPS-ის წვდომა გვპყოფნია.</string>
+</resources>

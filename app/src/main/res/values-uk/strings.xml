@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Astra Компас</string>
+    <string name="tab_compass">Компас</string>
+    <string name="tab_level">Рівень</string>
+    <string name="tab_pitch">Кут</string>
+    <string name="tab_settings">Налаштування</string>
+    <string name="permission_request">Для вирівнювання монтування нам потрібен доступ до GPS для розрахунку істинної півночі.</string>
+</resources>

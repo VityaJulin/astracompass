@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Astra Kompas</string>
+    <string name="tab_compass">Kompas</string>
+    <string name="tab_level">Səviyyə</string>
+    <string name="tab_pitch">Meyl bucağı</string>
+    <string name="tab_settings">Parametrlər</string>
+    <string name="permission_request">Quraşdırmayı tənzim etmək üçün həqiqi şimalı hesablamaq üçün GPS-ə giriş lazımdır.</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Astra কম্পাস</string>
+    <string name="tab_compass">কম্পাস</string>
+    <string name="tab_level">স্তর</string>
+    <string name="tab_pitch">ঝোঁক</string>
+    <string name="tab_settings">সেটিংস</string>
+    <string name="permission_request">মাউন্ট সারিব করতে, সঠিক উত্তর গণনার জন্য আমাদের GPS অ্যাক্সেস দরকার।</string>
+</resources>

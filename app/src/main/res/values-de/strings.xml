@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Astra Compass</string>
+    <string name="tab_compass">Kompass</string>
+    <string name="tab_level">Level</string>
+    <string name="tab_pitch">Pitch</string>
+    <string name="tab_settings">Einstellungen</string>
+    <string name="permission_request">Um die Montierung auszurichten, benötigen wir Zugriff auf GPS für die Berechnung des wahren Nordens.</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Astra Kompass</string>
+    <string name="tab_compass">Kompass</string>
+    <string name="tab_level">Tase</string>
+    <string name="tab_pitch">Kalle</string>
+    <string name="tab_settings">Seaded</string>
+    <string name="permission_request">Monteerimise reguleerimiseks on vaja GPS-i ligipääsu, et arvutada tõelist põhja.</string>
+</resources>

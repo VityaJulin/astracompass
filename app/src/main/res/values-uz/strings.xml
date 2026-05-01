@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Astra Kompas</string>
+    <string name="tab_compass">Kompas</string>
+    <string name="tab_level">Sath</string>
+    <string name="tab_pitch">Egilish burchagi</string>
+    <string name="tab_settings">Sozlamalar</string>
+    <string name="permission_request">Montirovkani sozlash uchun haqiqiy shimolni hisoblash uchun GPS ga kirish kerak.</string>
+</resources>

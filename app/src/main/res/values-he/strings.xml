@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">מצפן Astra</string>
+    <string name="tab_compass">מצפן</string>
+    <string name="tab_level">מפלס</string>
+    <string name="tab_pitch">זווית הטיה</string>
+    <string name="tab_settings">הגדרות</string>
+    <string name="permission_request">כדי לכוונן את המנשא, אנחנו צריכים גישה ל-GPS לחישוב צפון אמתי.</string>
+</resources>

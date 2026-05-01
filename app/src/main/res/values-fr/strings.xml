@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Astra Boussole</string>
+    <string name="tab_compass">Boussole</string>
+    <string name="tab_level">Niveau</string>
+    <string name="tab_pitch">Inclinaison</string>
+    <string name="tab_settings">Paramètres</string>
+    <string name="permission_request">Pour aligner la monture, nous avons besoin de l\'accès au GPS pour le calcul du nord vrai.</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Astra Busolă</string>
+    <string name="tab_compass">Busolă</string>
+    <string name="tab_level">Nivelă</string>
+    <string name="tab_pitch">Unghiul de înclinare</string>
+    <string name="tab_settings">Setări</string>
+    <string name="permission_request">Pentru a alinia montura, avem nevoie de acces la GPS penntru calculul nordului adevărat.</string>
+</resources>

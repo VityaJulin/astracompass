@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Astra Компас</string>
+    <string name="tab_compass">Компас</string>
+    <string name="tab_level">Қатар</string>
+    <string name="tab_pitch">Еңіс бұрышы</string>
+    <string name="tab_settings">Параметрлер</string>
+    <string name="permission_request">Монтировканы реттеу үшін шынайы солтүстікке есептеу үшін GPS қатынауы қажет.</string>
+</resources>

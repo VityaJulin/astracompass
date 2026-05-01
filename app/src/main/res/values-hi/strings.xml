@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Astra कम्पास</string>
+    <string name="tab_compass">कम्पास</string>
+    <string name="tab_level">स्तर</string>
+    <string name="tab_pitch">झुकाव</string>
+    <string name="tab_settings">सेटिंग्स</string>
+    <string name="permission_request">माउंट को संरेखित करने के लिए, हमें सही उत्तर की गणना के लिए GPS एक्सेस की आवश्यकता है।</string>
+</resources>
