@@ -18,8 +18,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.setValue
-import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
@@ -33,7 +33,7 @@ fun MainScreen(viewModel: CompassViewModel) {
     val pagerState = rememberPagerState(pageCount = { 3 })
     val state by viewModel.uiState.collectAsState()
     val scope = rememberCoroutineScope()
-    var selectedTab by remember { mutableStateOf(0) }
+    var selectedTab by remember { mutableIntStateOf(0) }
 
     // Синхронизируем selectedTab при свайпе
     LaunchedEffect(pagerState.currentPage) {
@@ -46,7 +46,7 @@ fun MainScreen(viewModel: CompassViewModel) {
                 FloatingActionButton(
                     onClick = { viewModel.toggleAstroMode() },
                     containerColor = MaterialTheme.colorScheme.primaryContainer,
-                    contentColor = MaterialTheme.colorScheme.onPrimaryContainer
+                    contentColor = MaterialTheme.colorScheme.onSurface
                 ) {
                     Icon(
                         imageVector = if (state.isAstroMode) Icons.Filled.VisibilityOff else Icons.Default.Visibility,
